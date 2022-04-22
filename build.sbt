@@ -74,5 +74,6 @@ libraryDependencies += "org.scala-lang.modules" %% "scala-parser-combinators" % 
 // To learn more about multi-project builds, head over to the official sbt
 // documentation at http://www.scala-sbt.org/documentation.html
 
-lazy val ok = project
-  .in(file("ok"))
+lazy val ok = project.in(file("ok"))
+
+lazy val err = project.in(file("err"))

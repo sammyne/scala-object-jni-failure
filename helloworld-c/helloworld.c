@@ -3,5 +3,5 @@
 #include <jni.h>
 
 JNIEXPORT void JNICALL Java_HelloWorld_hi(JNIEnv *env, jobject o) {
-  printf("hello world\n");
+  printf("hello world from C\n");
 }

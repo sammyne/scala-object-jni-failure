@@ -6,4 +6,4 @@ export LD_LIBRARY_PATH=$libpath
 
 make -C $libpath
 
-sbt "ok/run"
+sbt "err/run"
